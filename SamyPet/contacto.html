@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PetCatDog</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"/>
+    <script src="//code.tidio.co/vsle43v0dem4tk1bfit53g8wir4fqdtu.js" async></script>
+</head>
+<body>
+
+    <section id="header">
+        <a href="#"><img src="./IMG/logoS.png" class="logo" alt="" ></a>
+
+        <div>
+            <ul id="navbar">
+                <li><a href="index.php">Inicio</a></li>
+                <li><a href="gato-shop.php">Gatos</a></li>
+                <li><a href="perros-shop.php">Perros</a></li>
+                <li><a href="blog.html">Tips</a></li>
+                <li><a class="active" href="contacto.html">Contacto</a></li>
+                <!-- <li><a href="checkout.php" class="btn btn-primary">Carrito <span id="num_cart" class="badge bg-secondary"><?php echo $num_cart; ?></span></a></li> -->
+
+                <a href="#" id="close"><i class="fa-regular fa-x"></i></a>
+            </ul>
+        </div>
+        <div id="mobile">
+            <i id="bar"  class="fa-solid fa-outdent"></i>
+        </div>
+    </section>
+    
+    <section id="page-header" class="contacto-header">
+        <h2>CONTACTANOS</h2>
+        <p>Reserva tu cita</p>
+    </section>
+
+    <section id="contact-details" class="section-p1">
+        
+        <div class="map">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15613.036488744036!2d-76.9861552!3d-11.956553!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9105c5363c0fa8ed%3A0xc01d9954a05f27b0!2sInstituto%20Superior%20Tecnol%C3%B3gico%20P%C3%BAblico%20Manuel%20Seoane%20Corrales!5e0!3m2!1ses-419!2spe!4v1684727110947!5m2!1ses-419!2spe" 
+            width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" ></iframe>
+        </div>
+    </section>
+
+    <section id="form-details">
+        <form action="https://formsubmit.co/137f7bee8901e25f0a6a941e0abfcdff" method="POST">
+            <span>COMUNICATE CON NOSOTROS PARA RESERVA TU CITA</span>
+            <h2>Dejanos tus datos</h2>
+            <input type="text" name="name" required placeholder="Nombre">
+            <input type="email" name="email" required placeholder="Email">
+            <input type="tel" name="telefono" id="telefono" minlength="9" required placeholder="Celular/Telefono">
+            <input type="text" name="mensaje" id="mensaje" required placeholder="Mensaje">
+            <input type="hidden" name="_captcha" value="false">
+            <input type="hidden" name="_next" value="http://localhost:3000/contacto.html">
+            <button class="normal" type="submit">Enviar</button>
+        </form>
+       
+    </section>
+
+    <section id="newsletter"  class="section-p1 section-m1">
+        <div class="newstext">
+        </div>
+        <div class="form">
+
+        </div>
+    </section>
+
+    <footer class="section-p1">
+        <div class="col">
+            
+            <h4>ENCUENTRANOS</h4>
+            <p><strong><i class="fa fa-location"></i>¿DONDE ESTAMOS?: </strong>Av. Miguel Grau 15033-Ayacucho
+            </p>
+            <p><strong><i class="fa fa-outdent"></i>HORARIO DE ATENCIÓN: </strong>Lunes a Viernes: 7am a 8pm/Sabado: 9am a 6pm</p>
+            <p><strong><i class="fa fa-phone"></i>TELEFONO: </strong>943 546 466/945 233 124</p>
+            <p><strong><i class="fa fa-envelope"></i>CORREO: </strong>samycareful@gmail.com</p>
+            <div class="follow">
+                <h4>SÍGUENOS EN NUESTRAS REDES</h4>
+                <div class="icon">
+                    <i class="fab fa-facebook-f"></i>
+                    <i class="fab fa-instagram"></i>
+                    
+                </div>
+            </div>
+        </div>
+        <center>
+            <div class="col install">
+    
+                <p></p>
+                <img src="IMG/huella.png" alt="">
+        
+            </center>
+       
+        <div class="copyright">
+            <p>2024 Samipet.pe - Todos los derechos reservados - Diseño Web</p>
+        </div>
+        
+    </footer>
+
+
+    <script src="script.js"></script>
+</body>
+</html>
